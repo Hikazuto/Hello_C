@@ -1,0 +1,26 @@
+
+There are 3 types of loops:
+- While
+- For 
+- Do
+
+# WHILE LOOP
+
+while (condition)
+{
+    body
+    body
+    body
+    .
+    .
+}
+
+The while loop operates as follows:
+> First, the condition in the parenthesees is tested
+> If the condition is true (1), the body of the loop is executed        
+    *The body of the loop is every statements between the curly bracers
+
+> After done, the condition is re-tested, if true, the body is executed again
+> Until the condition becomes false (0), the loop ends 
+> The program exited the loop and execution continues to the statement that follows after the loop
+

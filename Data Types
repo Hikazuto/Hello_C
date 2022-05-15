@@ -1,0 +1,40 @@
+# See Also
+* https://en.wikipedia.org/wiki/C_data_types
+* https://docs.microsoft.com/en-us/cpp/cpp/data-type-ranges?view=msvc-170 (for Microsoft MSVC Compiler)
+
+# Fundamental Basic Data Types
+* The ranges and sizes of these objects are machine-dependent (32-bit or 64-bit OS)
+
+o Integer Types
+> int    - Integer
+> short  - Short Integer
+> long   - Long Integer
+
+> float  - Floating-Point Numbers
+> double - Double Precision Floating-Point
+
+> Char   - Character (a single byte) [typically ASCII Character]
+
+
+o Integers (int)
+The type "int" means that the variables listed are integers
+
+* The range depends on every machine:
+In 16-bit ints between -32768 and +32767
+In 32-bit ints between -2147483648 and +2147483647 are common
+
+
+o Floating-Point Numbers (float)
+"float" which means floating-point numbers (have a fractional part)
+
+Typically a 32-bit quantity, with at least 6 significant digits
+Magnitude generally between about 10^-38 and 10^+38 
+
+
+o Double Precision Floating-Point (double)
+Double the precision thus, double the size...
+* because of its size, use it only when necessary (when you need more precision over memory and speed)
+
+Typically a 64-bit quantity (double from "float")
+
+

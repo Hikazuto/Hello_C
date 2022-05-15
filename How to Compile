@@ -1,0 +1,34 @@
+============= Compile C Source program ================  
+*Just a bit of hint for me
+
+# To compile a C Source Program
+type "$gcc {C source file} -o {output name}" in LINUX terminal using GNU Compiler, or
+type "$gcc {C source file}" on LINUX, the compiler will automatically named it to "a.out"
+type ">cl {C source file}" on Windows using Microsoft built-in "Visual Studio" Compiler terminal
+ex: gcc HelloWorld.c -o helloworld.out
+
+
+NOTE:
+ On other systems the rules will be different; Check with a local expert
+ You can use GNU compiler in Windows using MinGW (MinGW-w64 or MSYS2) 
+ You can also use another compiler
+
+*There are tons of compiler out there (Browse the Internet for more information) 
+*Browse the Internet for more information
+
+
+> The compiler will produce:
+
+ * an executable file (*.exe) and object file (*.obj) on Windows Visual Studio Compiler
+ * an executable file (*.exe) on Windows (MinGW Compiler)
+ * an executable file (*.out) on UNIX and Linux Operating System [I try it on Manjaro]
+ * etc.
+
+
+# To run the compiled program or executable files
+type "./{Executable or object file name}" in terminal
+
+or press F5 or "debug" in your IDE (Integrated Development Environment)
+/* Such as "Visual Studio Code", "Visual Studio", "Notepad++", etc */
+Then choose your preference debugger to run and instantly see the program output 
+(without having to compile it first)

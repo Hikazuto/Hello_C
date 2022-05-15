@@ -1,0 +1,97 @@
+NOTE: Some of the words are from 
+ - "The C Programming Language Second Edition" by Brian W. Kerninghan and Dennis M. Ritchie
+ -  Wikipedia
+ -  and some of it are my opinions
+*Plese tell me if I'm making a mistake...
+
+
+=================== A BIT OF INTRODUCTION =====================
+
+C - filename extensions (.c | .h)
+    o Paradigm          : Multi-Paradigm, Imperative (procedural), structured
+    o Typing Discipline : Static, Weak, Manifest, Nominal
+
+
+C is a functional general-purpose programming language.
+
+Developed by Dennis Ritchie in Bell Labs at 1972 and 1973 as a successor to the language B
+and has been closely associated with the UNIX system where it was developed.
+
+Many of the important ideas of C stem from the language BCPL, developed by Martin Richards
+The influence of BCPL on C proceeded indirectly through the language B, written by Ken Thompson in 1970
+for the first UNIX system on the DEC PDP-7
+
+# BCPL and B are "typeless" languages. By contrast C provides a variety of "data types"
+o The fundamental or primitive data types:
+- Integers 
+- Characters 
+- Floating-point numbers of several sizes
+
+o In addition, there is a hierarchy of derived data types:
+- Pointers
+- Arrays
+- Structures
+- Unions
+
+o Expressions are formed from operators and operands
+
+o Any Expression, including an assignment or a function call, can be a statement
+
+o Pointers provides for machine-independent address arithmetic
+
+# C also provides the fundamental control-flow construction required for well structured programs
+> Statement Grouping
+> Decision Making (if-else)
+> Selecting one of a set of possible cases (switch)
+> Looping 
+    * with a termination test at the top (while, for)
+    * or at the bottom (do)
+
+> Early loop exit (break)
+
+# Functions 
+* may return values of basic types, structures, unions, or pointers
+* any function may be called recursively
+* Local variables are typically "automatic", or created anew with each invocation
+* Function definitions may be not nested but variables may be declared in a block-structured fashion
+* The functions of a C program may exist in a separate source files that are compiled separately
+* Variables may be
+    - Internal to a function
+    - External but known only within a single source file
+    - or Visible to the entire program
+
+# A Preprocessing steps
+<> Performs Macro substitution on program text
+<> Inclusion of other source files
+<> and Conditional compilation
+
+
+
+
+
+
+The language has been called  a "system programming language" 
+because it useful for writing compilers and operating systems
+hence, both system and most low-level programs (where hardware control is necessary)
+that run on it are written in C (most of operating systems)
+
+note: C is not tied to any one operating system or machine
+
+
+
+===== A brief of History ======
+
+The computing world has undergone a revolution since the publication
+of "The C Programming Language" in 1978
+(People don't have to learn assembler to make a good general purpose program or control a hardware)
+(They can make a better, readable program but still maintain the speed and eficiency of low-level system)
+
+
+Big computer are much bigger, Personal Computers are not a dream anymore, everyone can achieve 
+and have the capabilities that rivals the mainframes a decade before the book published
+
+The growing popularity of C, and the creation of compilers by groups not involved by its design.
+
+The American National Standards Institute (ANSI) established a committee whose goal was to 
+produce "an unambiguous and machine-independent definition of the language C"
+while still retaining its spirit. The result is the ANSI standard for C or "ANSI C"
